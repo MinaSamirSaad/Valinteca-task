@@ -24,8 +24,8 @@ main {
     gap: 60px;
     background: rgba(245, 247, 255, 0.85);
     border-radius: 10px;
-    width: 1080px;
-    height: auto;
+    max-width: 1080px;
+    max-height: 656px;
 }
 
 .image-container {
@@ -42,11 +42,11 @@ main {
         gap: 40px;
         padding: 40px 0;
         margin: auto;
-        overflow: hidden;
+        overflow: auto;
     }
 
     .image-container {
-        width: 90vw;
+        max-width: 80vw;
         background: rgb(244, 236, 244);
     }
 }

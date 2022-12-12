@@ -1,0 +1,17 @@
+.success-message {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+}
+
+.email {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-decoration-line: underline;
+
+    color: #1F1249;
+}

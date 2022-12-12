@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../styles/main-style.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/signUp.css">
+    <script src="https://kit.fontawesome.com/a1f5e7563c.js" crossorigin="anonymous"></script>
+
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Main container -->
+        <main>
+
+            <!-- Image section -->
+            <section class="image-section">
+                <img src="/assets/Image Placeholder2.svg" alt="Image Placeholder">
+            </section>
+
+            <!-- Register section -->
+            <section class="signUp-section">
+
+                <!-- Content -->
+
+                <div class="content">
+                    <h1>Create Account</h1>
+                    <p>Go ahead and sign up, let everyone know how awesome you are!</p>
+                </div>
+
+                <!-- Form container -->
+
+                <form method="post" id="form">
+                    <div class="input-container">
+                        <i class='fas fa-user-alt'></i>
+                        <input type="text" id="name" name="fname" placeholder="Username" required>
+                    </div>
+                    <p id="name-error-message"></p>
+                    <div class="input-container">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" id="email" name="fname" placeholder="Email" required>
+                    </div>
+                    <p id="email-error-message"></p>
+                    <div class="input-container">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" id="pass" name="fname" placeholder="password" required>
+                    </div>
+                    <p id="pass-error-message"></p>
+                    <div class="input-container">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" id="confPass" name="fname" placeholder="Confirm password" required>
+                    </div>
+                    <p id="confPass-error-message"></p>
+                    <input type="submit" id="submit" value="Create Account">
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+.signUp-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.content h1 {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+}
+
+.content p {
+    width: 100%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.input-container {
+    background: #FFFFFF;
+    position: relative;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.input-container i {
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translate(-95%, -40%)
+}
+
+.input-container input {
+    width: calc(100% - 40px);
+    height: 44px;
+    padding: 8px 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    border-radius: 10px;
+    text-indent: 7%;
+    outline: none;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 0px 50px;
+    height: 60px;
+    background: linear-gradient(113.87deg, #2663DF 14.81%, #758FF0 88.76%);
+    box-shadow: 0px 6px 18px #9CADF2;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#name-error-message,
+#email-error-message,
+#pass-error-message,
+#confPass-error-message {
+    color: red;
+    font-size: medium;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .signUp-section {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+        gap: 10px;
+        align-items: center;
+    }
+
+    form .input-container {
+        width: 90%;
+    }
+
+    form input[type="submit"] {
+        width: 90%;
+        padding: 0;
+    }
+
+}
